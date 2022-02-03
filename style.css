@@ -11,6 +11,9 @@ p, li {
     text-shadow: none;
     font-size: 1.1em;
 }
+ul li {
+    list-style: none;
+}
 a {
     text-decoration: none;
     color: rgb(92, 132, 241);
@@ -84,7 +87,7 @@ section {
 }
 
 aside {
-    min-width: 350px;
+    min-width: 450px;
     /* border-right: 2px solid rgb(248, 173, 11); */
     padding-right: 2em;
     margin-right: 2em;
