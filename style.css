@@ -1,0 +1,119 @@
+body {
+    background-color: rgb(255, 255, 255);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: rgb(255, 174, 0);
+    text-shadow: 0px 0px 2px #000;
+}
+p, li {
+    color: rgb(56, 56, 56);
+    text-shadow: none;
+    font-size: 1.1em;
+}
+a {
+    text-decoration: none;
+    color: rgb(92, 132, 241);
+}
+.container {
+    /* background-color: #fff; */
+    background-image: url(./photos/brandi-redd-aJTiW00qqtI-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgb(241, 241, 241);
+    box-shadow: 1px 1px 8px #000;
+    width: 80%;
+    margin: 2em auto;
+    padding: 1em 1em 2em 3em;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1em;
+}
+
+.heading {
+    align-self: flex-start;
+}
+h1 {
+    color: rgb(6, 118, 138);
+    /* text-shadow: 0px 0px 4px #000; */
+    text-transform: uppercase;
+    /* border: 1px solid rgb(248, 173, 11); */
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 1px 1px 8px #000;
+    border-radius: 8px;
+}
+
+h2 {
+    text-transform: uppercase;
+    border-bottom: 4px solid rgb(248, 173, 11);
+}
+
+.lastname {
+    text-transform: uppercase;
+    font-size: 1em;
+    font-weight: bolder;
+    color: rgb(248, 173, 11);
+}
+
+
+
+.photo {
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    box-shadow: 0px 0px 4px #000;
+}
+
+
+.photo img {
+    width: 100%;
+    
+}
+
+
+
+section {
+    display: flex;
+    margin-top: 30px;
+}
+
+aside {
+    min-width: 350px;
+    /* border-right: 2px solid rgb(248, 173, 11); */
+    padding-right: 2em;
+    margin-right: 2em;
+}
+.side h2,
+.side h3,
+.side p {
+    text-align: right;
+}
+
+.contact img, small img {
+    width: 20px;
+    margin-left: 30px;
+    vertical-align: sub;
+}
+
+.fulllengthphoto {
+    width: 550px;
+}
+
+article, aside {
+    background-color: #fff;
+    box-shadow: 1px 1px 8px #000;
+    border-radius: 8px;
+    padding: 30px;
+}
+.valid {
+    display: none;
+}
+small{
+    color: rgb(114, 114, 114);
+}
