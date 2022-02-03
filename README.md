@@ -1,1 +1,1 @@
-https://github.com/Omurbek007/my_cv.git
+https://omurbek007.github.io/my_cv/
