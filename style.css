@@ -1,15 +1,63 @@
 body {
-    background-color: rgb(255, 255, 255);
+    background-color: #594c4c;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     color: rgb(255, 174, 0);
     text-shadow: 0px 0px 2px #000;
 }
+
+/* NAV */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #594c4c;
+    box-shadow: 1px 1px 8px #000;
+    border-radius: 8px;
+    
+}
+.links ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+.links ul li {
+    margin: 0 0.5rem ;
+    font-size: 1.1rem;
+    text-decoration: none;
+}
+.logo a{
+    color: rgb(206, 197, 197);
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: 1s;
+    margin-left: 1rem;
+    
+}
+.links a {
+    color: rgb(206, 197, 197);
+    font-variant: normal;
+    text-transform: uppercase;
+    transition: 1s;
+    
+}
+.links a:hover, .logo a:hover {
+    color: rgb(4, 133, 245);
+    text-decoration: overline;
+    transition: 1s;
+}
+
+
+
 p, li {
-    color: rgb(56, 56, 56);
+    color: rgb(206, 197, 197);
     text-shadow: none;
-    font-size: 1.1em;
+    font-size: 1.2rem;
+    text-decoration: overline;
+    font-variant: small-caps;
+    line-height: 130%;
+    letter-spacing: 0.05rem;
 }
 ul li {
     list-style: none;
@@ -20,27 +68,29 @@ a {
 }
 .container {
     /* background-color: #fff; */
-    background-image: url(./photos/brandi-redd-aJTiW00qqtI-unsplash.jpg);
+    /* background-image: url(./photos/brandi-redd-aJTiW00qqtI-unsplash.jpg); */
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    background-color: rgb(241, 241, 241);
-    box-shadow: 1px 1px 8px #000;
+    /* background-color: rgb(241, 241, 241); */
+    /* box-shadow: 1px 1px 8px #000; */
     width: 80%;
     margin: 2em auto;
-    padding: 1em 1em 2em 3em;
+    padding: 12px;
 }
 
-header {
+.banner {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;  /*FLEX WRAP WRAP */
     margin-top: 1em;
 }
 
 .heading {
     align-self: flex-start;
 }
+
 h1 {
     color: rgb(6, 118, 138);
     /* text-shadow: 0px 0px 4px #000; */
@@ -67,8 +117,8 @@ h2 {
 
 
 .photo {
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 200px;
     border-radius: 100%;
     box-shadow: 0px 0px 4px #000;
 }
@@ -83,11 +133,12 @@ h2 {
 
 section {
     display: flex;
+    /* flex-wrap: wrap; FLEX WRAP WRAP */
     margin-top: 30px;
 }
 
 aside {
-    min-width: 450px;
+    max-width: 450px;
     /* border-right: 2px solid rgb(248, 173, 11); */
     padding-right: 2em;
     margin-right: 2em;
@@ -105,11 +156,18 @@ aside {
 }
 
 .fulllengthphoto {
-    width: 550px;
+    width: 450px;
+    box-shadow: 0px 0px 6px #000000;
+}
+.fulllengthphoto img {
+    width: 100%;
 }
 
+article {
+    max-width: 50%;
+}
 article, aside {
-    background-color: #fff;
+    /* background-color: #fff; */
     box-shadow: 1px 1px 8px #000;
     border-radius: 8px;
     padding: 30px;
